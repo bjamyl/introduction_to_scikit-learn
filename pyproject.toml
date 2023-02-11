@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "introduction-to-scikit-learn"
+version = "0.1.0"
+description = ""
+authors = ["bjamyl <alhassanjamil0@gmail.com>"]
+readme = "README.md"
+packages = [{include = "introduction_to_scikit_learn"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
